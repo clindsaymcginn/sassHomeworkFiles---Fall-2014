@@ -61,7 +61,7 @@ article {
 	margin: 25px 0px 25px 0px;
 	padding: 0px 0px 15px 0px;
 	@include border-radius(15px);
-	background-color: $mid;
+	background-color: $light;
 	p {padding: 0px 10px 15px 15px;}
 	header {padding: 0px 0px 15px 15px;}
 	li {list-style: disc; margin: 10px 40px 10px 40px;}
@@ -71,9 +71,10 @@ article {
 
 footer {padding: 0px 0px 20px 0px;
 font-size: small;
-h1 {font-size: small; font-style: bold; display: inline; }
-h2 {display: inline;}
-nav {display: inline; font-size: small; color: $white;  }
+h1 {font-family:$headerFont; font-size: small; font-style: bold; display: inline; }
+h2 {font-family:$headerFont; display: inline;}
+nav {display: inline; font-size: small; color: $white;}
+ul {display: inline;}
 li {display: inline; padding: 0px 10px 0px 10px;}
 a{ color:$white; text-decoration: none;}
 }
